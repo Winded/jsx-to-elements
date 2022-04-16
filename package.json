@@ -1,0 +1,11 @@
+{
+  "name": "jsx-to-elements",
+  "version": "1.0.0",
+  "description": "Implementation of React.createElement for directly creating DOM elements with JSX",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Winded",
+  "license": "ISC"
+}

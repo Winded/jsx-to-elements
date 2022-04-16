@@ -1,0 +1,23 @@
+{
+  "name": "example-jsx",
+  "version": "1.0.0",
+  "description": "JSX example for jsx-to-elements package",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "npx babel src/example.jsx -o dist/example.js && npx browserify --outfile dist/bundle.js dist/example.js",
+    "serve": "npx http-server dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Winded",
+  "license": "ISC",
+  "dependencies": {
+    "jsx-to-elements": "file:../.."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-react": "^7.16.7",
+    "browserify": "^17.0.0",
+    "http-server": "^14.1.0"
+  }
+}
